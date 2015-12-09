@@ -53,7 +53,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/video_published_date"
-            android:layout_toRightOf="@+id/video_published_date"
+            android:layout_toRightOf="@+id/video_thumbnail"
             android:textColor="#E43F3F"
 
             android:textSize="15sp" />
