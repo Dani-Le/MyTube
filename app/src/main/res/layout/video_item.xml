@@ -33,17 +33,10 @@
             android:id="@+id/video_description"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/video_title"
+            android:layout_below="@+id/video_views"
             android:layout_toRightOf="@+id/video_thumbnail"
             android:textSize="15sp" />
 
-        <TextView
-            android:id="@+id/video_views"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/video_title"
-            android:layout_toRightOf="@+id/video_published_date"
-            android:textSize="15sp" />
 
         <TextView
             android:id="@+id/video_published_date"
@@ -51,15 +44,32 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/video_title"
             android:layout_toRightOf="@+id/video_thumbnail"
+            android:textColor="#E43F3F"
+
             android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/video_views"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/video_published_date"
+            android:layout_toRightOf="@+id/video_published_date"
+            android:textColor="#E43F3F"
+
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/setKeithPerryPlaylist"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_weight="5"
+            android:layout_below="@+id/video_description"
+            android:layout_toRightOf="@+id/video_published_date"
+            android:src="@drawable/star" />
+
     </RelativeLayout>
 
-    <ImageView
-        android:id="@+id/setFav"
-        android:layout_width="fill_parent"
-        android:layout_height="50dp"
-        android:layout_weight="5"
-        android:src="@drawable/star" />
+
 
 
 </RelativeLayout>
